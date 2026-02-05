@@ -85,7 +85,7 @@ def run_automation():
                 processed_any = True
                 c_name = row.get("Name", "N/A")
                 c_phone = row.get("Phone", "N/A")
-                visit_time = row.get("when_you_are☻_available_to_visit?", "N/A")
+                visit_time = row.get("when_you_are_available_to_visit?", "N/A")
                 connect_time = row.get("best_time_to_connect_with_you?", "N/A")
 
                 # Build the message for the owner
@@ -122,3 +122,4 @@ def run_automation():
 
 if __name__ == "__main__":
     run_automation()
+
